@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAK;EACH,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,OAAO;EACnB,KAAK,EAAE,KAAK;;ACHd,WAAY;EACV,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,IAAI;;ACCnB,CAAE;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;;AAGZ,UAAW;EACT,MAAM,EAAE,IAAI",
+"sources": ["../../src/scss/components/_page.scss","../../src/scss/components/_hero.scss","../../src/scss/main.scss"],
+"names": [],
+"file": "main.css"
+}

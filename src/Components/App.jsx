@@ -26,7 +26,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <Hero text={'Testing'} />
+        <Hero text={'Movie Suggestor'} />
         <MovieList items={['hi']} />
         {JSON.stringify(this.props)}
       </div>
