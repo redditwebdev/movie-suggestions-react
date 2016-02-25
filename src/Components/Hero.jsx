@@ -7,7 +7,7 @@ import React from 'react';
  * or really any other react things.
  */
 export const Hero = ({text}) => (
-  <h1>
+  <h1 className="hero-title">
     {text}
   </h1>
 );

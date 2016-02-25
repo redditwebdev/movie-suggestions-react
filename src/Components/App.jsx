@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import {Hero} from './Hero.jsx';
 import {MovieList} from './MovieList.jsx';
 
+import {Typeahead} from 'react-typeahead';
 
 export default class App extends Component {
   constructor(props) {
@@ -26,7 +27,13 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <Hero text={'Testing'} />
+        <Hero text={'Movie Suggestor'} />
+        <Typeahead
+          options={['Wow', 'weird', 'wally', 'walter', 'cool', 'neat']}
+          className="typeahead-container"
+          customClasses={{input: 'typeahead-input'}}
+          placeholder="Enter a movie, genre, or actor that you enjoy"
+        />
         <MovieList items={['hi']} />
         {JSON.stringify(this.props)}
       </div>
